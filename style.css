@@ -219,7 +219,7 @@ header {
 /* Samo za mobilni uređaj */
 @media (max-width: 768px) {
     header {
-        flex-direction: column; /* na mobitelu vertikalno */
+        flex-direction: column; /* na mobitelu horizointalno */
         align-items: center;
         text-align: center;
     }
@@ -243,6 +243,7 @@ header {
     color: #ff9800;            /* narandžasta */
     font-family: Arial, sans-serif;
 }
+
 
 
 
