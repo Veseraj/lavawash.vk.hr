@@ -140,4 +140,25 @@ section {
 
 body {
     font-weight: bold; /* Svi tekstovi će biti podebljani */
+
+} 
+
+/* Mobilni uređaji */
+@media (max-width: 768px) {
+    #pocetna img,
+    #o-nama img {
+        width: 100%;   /* slika zauzima punu širinu ekrana */
+        height: auto;
+    }
+
+    #o-nama,
+    #kontakt {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;  /* meni postaje vertikalno */
+    }
 }
