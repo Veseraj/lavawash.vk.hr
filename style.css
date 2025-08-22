@@ -193,3 +193,46 @@ body {
     }
 }
 
+header {
+    display: flex;
+    justify-content: space-between; /* lijevo, centar, desno */
+    align-items: center;             /* vertikalno centriranje */
+    padding: 20px 40px;
+}
+
+/* Lijevi tekst vertikalno */
+#header-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Centar logo */
+#logo-img {
+    max-width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Desni kontakt */
+#header-right {
+    text-align: right;
+}
+
+/* Mobilni uređaji */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #header-left, #header-right {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #logo-img {
+        margin: 10px auto;
+    }
+}
+
