@@ -193,3 +193,43 @@ body {
     }
 }
 
+header {
+    display: flex;
+    justify-content: space-between; /* raspored lijevo-centar-desno */
+    align-items: center;            /* vertikalno centrirano */
+    padding: 20px 40px;
+}
+
+/* Lijevi tekst (Vešeraj/LavaWash) */
+#header-left {
+    display: flex;
+    flex-direction: column; /* jedan ispod drugog */
+}
+
+/* Centar logo */
+#logo-img {
+    max-width: 120px;
+}
+
+/* Desni kontakt */
+#header-right {
+    text-align: right;
+}
+
+/* Samo za mobilni uređaj */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* na mobitelu vertikalno */
+        align-items: center;
+        text-align: center;
+    }
+
+    #header-left, #header-right {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #logo-img {
+        margin: 10px auto;
+    }
+}
