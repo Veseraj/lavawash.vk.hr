@@ -1,0 +1,143 @@
+/* Osnovni stil tijela */
+body {
+
+    font-family: Arial, bond, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6e3; /* Svijetla bež pozadina za čistoću */
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background-color: #0d1b3c;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+#logo span {
+    color: #ff7f50; /* Narandžasta */
+}
+
+#logo-img {
+    height: 100px;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff7f50;
+}
+
+/* Sekcije sa pozadinom */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Lagani bijeli sloj za čitljivost */
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 1000px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    
+    /* Pozadina ručnika */
+    background-image: url("pozadinarucnika.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Početna sekcija */
+#pocetna h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#pocetna p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Glavna slika */
+#main-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Kontakt linkovi */
+a {
+    color: #0d1b3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: bond, underline;
+}
+
+/* Footer */
+footer {
+    background-color: #0d1b3c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.85); /* bijeli sloj za čitljivost */
+    background-image: url("pozadinarucnika.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 1000px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.swiper {
+  width: 80%;
+  max-width: 1000;
+  height: 400px;
+  margin: 40px auto;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+body {
+    font-weight: bold; /* Svi tekstovi će biti podebljani */
+}

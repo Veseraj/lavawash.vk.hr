@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vešeraj LavaWash</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Dodano za slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1 id="logo">Vešeraj <span>LavaWash</span></h1>
+        <img src="logo.jpg" alt="LavaWash Logo" id="logo-img">
+        <nav>
+            <ul>
+                <li><a href="#pocetna">Početna</a></li>
+                <li><a href="#o-nama">O nama</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Početna sekcija -->
+    <section id="pocetna">
+        <h2>Mi brinemo o vašem rublju</h2>
+        <p>Profesionalno pranje, peglanje i iznajmljivanje rublja hotelskog standarda.</p>
+        
+        <!-- Slider umjesto jedne slike -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="slika1.jpg" alt="Prva slika"></div>
+                <div class="swiper-slide"><img src="slika2.jpg" alt="Druga slika"></div>
+                <div class="swiper-slide"><img src="slika3.jpg" alt="Treća slika"></div>
+            </div>
+            <!-- Navigacija -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- O nama -->
+    <section id="o-nama">
+        <h2>O nama</h2>
+        <p>U LavaWash peremo veš, peglamo ga i iznajmljujemo setove ručnika i posteljina hotelskog standarda.</p>
+        <p>Brinemo o svakom komadu rublja s pažnjom i profesionalnošću.</p>
+        <p>Osim pranja i peglanja, nudimo i dostavu do vašeg doma ili poslovnog prostora.</p>
+        <p>Naša misija je olakšati vam svakodnevnicu i pružiti sigurnost da je vaše rublje u sigurnim rukama.</p>
+        <p>Za LavaWash, čisto rublje znači sretnije i zdravije klijente.</p>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Adresa: <a href="https://maps.app.goo.gl/hFZWXms8LnUQ1ZG6A?g_st=ipc" target="_blank">Ulica kralja Zvonimira 21, Vinkovci</a></p>
+        <p>Telefon: <a href="tel:‪+385997432221‬">‪+385 99 743 2221‬</a></p>
+        <p>Radno vrijeme: Pon-Pet 8:00-16:00, Sub 7:00-11:00</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Vešeraj LavaWash</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Dodano za slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        loop: true,
+        pagination: { el: '.swiper-pagination', clickable: true },
+        navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+      });
+    </script>
+</body>
+</html>
