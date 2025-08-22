@@ -211,3 +211,22 @@ header {
     margin: 0;
     font-size: 28px;          /* po želji prilagodi veličinu */
 }
+
+/* Header centriranje */
+header {
+    text-align: center;       /* centriranje svega unutar headera */
+    padding-top: 20px;        /* razmak od vrha */
+}
+
+/* Logo slika */
+#logo-img {
+    display: block;           /* da margine rade ispravno */
+    margin: 0 auto 10px auto; /* centriranje i razmak ispod slike */
+    max-width: 150px;         /* prilagodi veličinu logo-a */
+}
+
+/* Tekst naslova */
+#logo {
+    margin: 0;
+    font-size: 28px;          /* po želji prilagodi veličinu */
+}
