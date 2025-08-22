@@ -233,3 +233,13 @@ header {
         margin: 10px auto;
     }
 }
+
+header {
+    position: fixed;      /* header fiksiran na vrhu */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;  /* pozadina da se ne vidi kroz sadržaj */
+    transition: top 0.3s;    /* glatko nestajanje */
+    z-index: 1000;           /* da bude iznad sadržaja */
+}
