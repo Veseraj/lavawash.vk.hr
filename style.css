@@ -261,5 +261,24 @@ header {
     margin: 0 20px; /* razmak oko loga */
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
 
+header h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* da sve bude u jednom redu (lijevo naslov, u sredini logo, desno meni) */
+header h1,
+header img,
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px;
+}
 
