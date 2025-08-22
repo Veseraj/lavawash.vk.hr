@@ -234,6 +234,15 @@ header {
     }
 }
 
+#main-header {
+    display: flex;
+    justify-content: space-between; /* rasporedi lijevo-centar-desno */
+    align-items: center;            /* vertikalno poravnaj */
+    padding: 20px 40px;
+    background-color: #1a237e; /* tamno plava */
+    color: #ff9800;            /* narandžasta */
+    font-family: Arial, sans-serif;
+}
 
 
 
